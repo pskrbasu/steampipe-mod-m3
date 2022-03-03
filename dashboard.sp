@@ -1,0 +1,16 @@
+chart chart1{
+    title = "chart 1"
+    query = m1.query.m1_q1
+}
+
+dashboard m3_d1 {
+  title = "dashboard d1"
+
+  chart {
+    base = m1.chart.
+  }
+  
+  input "i1" {
+    base = m1.input.
+  }
+}
