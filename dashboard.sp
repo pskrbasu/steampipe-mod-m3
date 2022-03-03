@@ -7,10 +7,10 @@ dashboard m3_d1 {
   title = "dashboard d1"
 
   chart {
-    base = m1.chart.
+    base = m1.chart.global_chart
   }
   
   input "i1" {
-    base = m1.input.
+    base = m1.input.global_input
   }
 }
