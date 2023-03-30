@@ -5,3 +5,8 @@ query "m2_q1"{
 query "Q1"{
     query = query.m1.Q2
 }
+
+
+query "Q2"{
+    sql = "select 1"
+}
