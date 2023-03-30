@@ -1,8 +1,4 @@
 
-query "Q1"{
+query "version"{
     sql = m1.query.version.sql
-}
-
-query "Q2"{
-    sql = "select 100"
 }
